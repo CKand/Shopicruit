@@ -39,7 +39,8 @@ $(document).ready(function () {
 				break;
 			}
 		}
-		 document.write("$" + Math.round(money *100)/100 +" dollars left with a total weight of " + weight/1000 + " kg where " + count + " unique keyboards and computers were bought!" );		
+		 html = "<p>" + "$" + Math.round(money *100)/100 +" dollars left with a total weight of " + weight/1000 + " kg where " + count + " unique keyboards and computers were bought!" + "<\p>"
+		 document.write("<h1> Shopicuit </h1>" + html);
     });
  });
 //method to get the price and the variants of each keyboard
